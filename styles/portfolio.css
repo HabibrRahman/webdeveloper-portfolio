@@ -30,25 +30,40 @@ nav a {
 /* headear related styles */
 .header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-}
-.banner-content{
-
+    justify-content: space-between;
 }
 
-.profile-picture{
+.banner-content {
+    max-width: 500px;
+}
+
+.profile-picture {
     width: 500px;
 }
 
-.banner-greeting{
-
+.banner-greeting {
+    font-size: 45px;
+    color: #757575;
+    margin-bottom: 0px;
 }
-.banner-title{
 
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.banner-prgpf{
+    margin-top: 20px;
 }
 
 
