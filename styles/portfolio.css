@@ -101,7 +101,10 @@ body {
 }
 
 /* Main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* About section styles */
 .about {
@@ -109,4 +112,17 @@ body {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    text-align: center;
+}
+.info-title{
+
+}
+.info-description{
+
 }
